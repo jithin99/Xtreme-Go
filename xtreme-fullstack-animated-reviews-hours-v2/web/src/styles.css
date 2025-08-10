@@ -1,0 +1,7 @@
+
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}
+.btn{@apply inline-flex items-center justify-center px-5 py-2.5 rounded-2xl font-semibold transition active:scale-[.99]}
+.btn-primary{@apply btn bg-black text-white hover:bg-zinc-800}
+.card{@apply rounded-3xl border bg-white shadow-sm}
+.glow { background: linear-gradient(90deg,#111,#444,#111); background-size: 200% 100%; animation: shimmer 6s linear infinite; border-radius: 9999px; }

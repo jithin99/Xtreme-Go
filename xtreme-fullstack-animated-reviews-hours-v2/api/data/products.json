@@ -1,0 +1,161 @@
+[
+  {
+    "id": "super",
+    "type": "Kart",
+    "name": "Super Kart",
+    "variants": [
+      {
+        "id": "super-5",
+        "name": "5 Laps",
+        "price": 430,
+        "minutes": 10
+      },
+      {
+        "id": "super-7",
+        "name": "7 Laps",
+        "price": 549,
+        "minutes": 14
+      },
+      {
+        "id": "super-10",
+        "name": "10 Laps",
+        "price": 699,
+        "minutes": 18
+      }
+    ]
+  },
+  {
+    "id": "double",
+    "type": "Kart",
+    "name": "Double Kart",
+    "variants": [
+      {
+        "id": "double-5",
+        "name": "5 Laps",
+        "price": 499,
+        "minutes": 10
+      },
+      {
+        "id": "double-7",
+        "name": "7 Laps",
+        "price": 599,
+        "minutes": 14
+      },
+      {
+        "id": "double-10",
+        "name": "10 Laps",
+        "price": 799,
+        "minutes": 18
+      }
+    ]
+  },
+  {
+    "id": "kids",
+    "type": "Kart",
+    "name": "Kids Kart",
+    "variants": [
+      {
+        "id": "kids-5",
+        "name": "5 Laps",
+        "price": 299,
+        "minutes": 8
+      },
+      {
+        "id": "kids-7",
+        "name": "7 Laps",
+        "price": 370,
+        "minutes": 12
+      },
+      {
+        "id": "kids-10",
+        "name": "10 Laps",
+        "price": 449,
+        "minutes": 15
+      }
+    ]
+  },
+  {
+    "id": "sport-super",
+    "type": "Kart",
+    "name": "Sport Super Kart",
+    "variants": [
+      {
+        "id": "sport-5",
+        "name": "5 Laps",
+        "price": 499,
+        "minutes": 12
+      },
+      {
+        "id": "sport-7",
+        "name": "7 Laps",
+        "price": 650,
+        "minutes": 16
+      }
+    ]
+  },
+  {
+    "id": "ps5",
+    "type": "Game",
+    "name": "PlayStation-5 (per hour)",
+    "variants": [
+      {
+        "id": "ps5-1h",
+        "name": "1 Hour",
+        "price": 250,
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "id": "pool",
+    "type": "Game",
+    "name": "8-Ball Pool (per hour)",
+    "variants": [
+      {
+        "id": "pool-1h",
+        "name": "1 Hour",
+        "price": 400,
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "id": "snooker",
+    "type": "Game",
+    "name": "Snooker (per hour)",
+    "variants": [
+      {
+        "id": "snooker-1h",
+        "name": "1 Hour",
+        "price": 250,
+        "minutes": 60
+      }
+    ]
+  },
+  {
+    "id": "gopro",
+    "type": "AddOn",
+    "name": "Go-Pro Add-on (per kart session)",
+    "variants": [
+      {
+        "id": "gopro-once",
+        "name": "1 Add-on",
+        "price": 200,
+        "minutes": 0
+      }
+    ]
+  },
+  {
+    "id": "falling",
+    "type": "Game",
+    "name": "Falling Stick (per try)",
+    "variants": [
+      {
+        "id": "falling-try",
+        "name": "Single Try",
+        "price": 120,
+        "minutes": 5
+      }
+    ]
+  }
+]

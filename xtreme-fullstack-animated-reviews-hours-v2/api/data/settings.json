@@ -1,0 +1,31 @@
+{
+  "openHours": {
+    "weekday": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "weekend": {
+      "open": "10:00",
+      "close": "23:00"
+    }
+  },
+  "resources": {
+    "super": 10,
+    "double": 4,
+    "kids": 8,
+    "sport-super": 6,
+    "ps5": 1,
+    "pool": 1,
+    "snooker": 1
+  },
+  "buffers": {
+    "Kart": 10,
+    "Game": 0
+  },
+  "taxRate": 0.18,
+  "admin": {
+    "email": "admin@xtreme.local",
+    "password": "admin123",
+    "jwtSecret": "devsecret"
+  }
+}
