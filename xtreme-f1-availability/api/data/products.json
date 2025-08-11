@@ -1,0 +1,50 @@
+[
+  {
+    "id": "super_kart",
+    "title": "Super Kart",
+    "variants": [
+      {
+        "id": "superKart_5laps",
+        "title": "5 Laps",
+        "price": 430,
+        "type": "kart"
+      },
+      {
+        "id": "superKart_7laps",
+        "title": "7 Laps",
+        "price": 549,
+        "type": "kart"
+      },
+      {
+        "id": "superKart_10laps",
+        "title": "10 Laps",
+        "price": 699,
+        "type": "kart"
+      }
+    ]
+  },
+  {
+    "id": "games",
+    "title": "Games",
+    "variants": [
+      {
+        "id": "ps5",
+        "title": "PlayStation 5 (per hour)",
+        "price": 250,
+        "type": "game"
+      },
+      {
+        "id": "pool_table",
+        "title": "8-Ball Pool (per hour)",
+        "price": 400,
+        "type": "game"
+      },
+      {
+        "id": "snooker",
+        "title": "Snooker (per hour)",
+        "price": 250,
+        "type": "game"
+      }
+    ]
+  }
+]

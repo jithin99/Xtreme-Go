@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --f1-red:#FF1E1E;
+  --f1-dark:#0B0B0F;
+  --f1-gray:#1B1B22;
+  --glow:0 0 40px rgba(255,30,30,.25);
+}
+.f1-stripes {
+  background: repeating-linear-gradient(135deg, rgba(255,255,255,.03) 0 8px, transparent 8px 16px);
+}
+@keyframes float { 0%{transform:translateY(0)} 50%{transform:translateY(-6px)} 100%{transform:translateY(0)} }
+.float { animation: float 3s ease-in-out infinite; }

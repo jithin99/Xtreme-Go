@@ -1,0 +1,22 @@
+{
+  "businessHours": {
+    "open": "10:00",
+    "close": "22:00"
+  },
+  "slotLengthMinutes": 15,
+  "capacityPerSlot": 6,
+  "productDefaults": {
+    "ps5": {
+      "slotLengthMinutes": 60,
+      "capacityPerSlot": 2
+    },
+    "pool_table": {
+      "slotLengthMinutes": 60,
+      "capacityPerSlot": 2
+    },
+    "snooker": {
+      "slotLengthMinutes": 60,
+      "capacityPerSlot": 2
+    }
+  }
+}
