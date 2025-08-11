@@ -1,7 +1,0 @@
-
-import React from 'react'
-export default function Navbar(){
-  const [user,setUser]=React.useState(JSON.parse(localStorage.getItem('user')||'null'))
-  const logout=()=>{ localStorage.removeItem('token'); localStorage.removeItem('user'); location.reload() }
-  return (<header className='sticky top-0 z-40 backdrop-blur bg-white/70 border-b'><div className='max-w-7xl mx-auto px-4 h-14 flex items-center justify-between'><a href='#home' className='font-extrabold text-xl'>Xtreme Go Karting</a><nav className='hidden md:flex gap-6 text-sm'><a href='#pricing' className='hover:underline'>Pricing</a><a href='#book' className='hover:underline'>Book</a><a href='#reviews' className='hover:underline'>Reviews</a><a href='https://www.instagram.com/xtremegokarting?igsh=cG04YTAxd2g5Zmtw' target='_blank' rel='noreferrer' className='hover:underline'>Instagram</a><a onClick={()=>location.hash='admin'} className='hover:underline' href='#admin'>Admin</a><a onClick={()=>location.hash='staff'} className='hover:underline' href='#staff'>Staff</a></nav><div className='flex items-center gap-2'>{user? (<><a href='#account' className='px-3 py-1.5 rounded-xl border text-sm'>My Bookings</a><button className='btn btn-primary' onClick={logout}>Sign out</button></>) : (<><a href='#auth' className='px-3 py-1.5 rounded-xl border text-sm'>Sign in</a><a href='#book' className='btn btn-primary'>Book Now</a></>)}</div></div></header>)
-}
